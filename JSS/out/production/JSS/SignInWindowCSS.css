@@ -1,0 +1,54 @@
+//styles for the whole window. Color of background is linear gradient from top left corner to bottom right corner.
+.root {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #98F5FF 0%, #00E5EE 100%);
+}
+//styles for labels
+.label {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+//style for login form
+.loginForm {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+//style for labels in login form
+.signInForm .label {
+    -fx-font-family: "Times New Roman";
+    //-fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+//style for text field to enter a password
+.textPasswordField {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 28px;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-border-color: #000000;
+    -fx-background-color: #F0FFFF;
+    -fx-background-radius: 8px;
+}
+//styles for buttons
+.button {
+    -fx-background-color:  linear-gradient(#BEBEBE 0%, #000000 25%, #303030 75%, #757575 100%);
+    -fx-background-radius: 15px;
+    -fx-border-width: 2px;
+    -fx-border-radius: 15px;
+    -fx-border-color: #000000;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+//styles for button, when cursor on them
+.button:hover {
+    -fx-text-fill: red;
+    -fx-border-width: 2px;
+    -fx-border-radius: 15px;
+    -fx-border-color: red;
+}

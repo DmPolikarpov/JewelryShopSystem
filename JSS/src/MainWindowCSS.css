@@ -1,0 +1,141 @@
+//styles for the whole window. Color of background is linear gradient from top left corner to bottom right corner.
+.root {
+    -fx-background-color: #98F5FF;
+}
+
+//styles for the left menu
+.leftMenu {
+    -fx-background-color: linear-gradient(to right, #00FFFF 0%, #00C5CD 20%, #00C5CD 80%, #00FFFF 100%);
+}
+
+//styles for the left menu buttons
+.leftMenu .button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 3px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-border-color: #000000;
+}
+
+//styles for the left menu buttons when cursor on them
+.leftMenu .button:hover {
+    -fx-border-color: red;
+}
+
+//styles for the work place
+.workPlace {
+    -fx-background-color: #98F5FF;
+}
+
+//styles for headers of tabs
+.tab-header-background {
+    -fx-background-color: #98F5FF;
+}
+
+//styles for a new tab
+.tab-content-area {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #000000;
+}
+
+//styles for greeting label
+.greetingLabel {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+//styles for buttons of greeting tab
+.menuOptions .button {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-border-color: #000000;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+//styles for buttons in greeting tab when cursor on them
+.menuOptions .button:hover {
+    -fx-border-color: red;
+}
+
+//styles for new item label
+.newItemLabel {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+//styles for new label
+.newLabel {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+//styles for new field
+.newField {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 28px;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-border-color: #000000;
+    -fx-background-color: #F0FFFF;
+    -fx-background-radius: 8px;
+}
+
+//styles for gender field
+.gender {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20px;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-border-color: #000000;
+    -fx-background-color: #F0FFFF;
+    -fx-background-radius: 8px;
+}
+
+//styles for the arrow inside gender field
+.gender .arrow {
+    -fx-background-color: #000000;
+}
+
+//styles for birthDate field
+.birthDate {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 16px;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-border-color: #000000;
+    -fx-background-color: #F0FFFF;
+    -fx-background-radius: 8px;
+}
+
+//style for addButtons
+.addButton {
+    -fx-background-color:  linear-gradient(#BEBEBE 0%, #000000 25%, #303030 75%, #757575 100%);
+    -fx-background-radius: 8px;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-border-color: #000000;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+//styles for addbuttons, when cursor on them
+.addButton:hover {
+    -fx-text-fill: red;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-border-color: red;
+}
+
