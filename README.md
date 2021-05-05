@@ -11,3 +11,13 @@ Create a jewelry shop system that will be used by salespersons and consultants. 
 -	The system should have GUI to navigate user through it and to allow to use all features of the system.
 # Structure of the project.
 ![ScreenShot](https://github.com/DmPolikarpov/JewelryShopSystem/raw/master/screenshots/structure.png)
+# Start window.
+![ScreenShot](https://github.com/DmPolikarpov/JewelryShopSystem/raw/master/screenshots/welcomeWindow.png)
+# Login form.
+![ScreenShot](https://github.com/DmPolikarpov/JewelryShopSystem/raw/master/screenshots/loginForm.png)
+# Main window.
+![ScreenShot](https://github.com/DmPolikarpov/JewelryShopSystem/raw/master/screenshots/mainWindow.png)
+# All jewelry tab.
+![ScreenShot](https://github.com/DmPolikarpov/JewelryShopSystem/raw/master/screenshots/jewelry.png)
+# Pawnshop tab.
+![ScreenShot](https://github.com/DmPolikarpov/JewelryShopSystem/raw/master/screenshots/pawnshop.png)
